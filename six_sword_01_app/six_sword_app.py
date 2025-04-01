@@ -5,6 +5,8 @@ import plotly.graph_objects as go
 from datetime import datetime, timedelta
 from sqlalchemy import create_engine, text
 from dotenv import load_dotenv  # ✅ 添加这行
+import os
+
 
 # 加载 .env 文件
 load_dotenv()
